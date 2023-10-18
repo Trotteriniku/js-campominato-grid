@@ -2,17 +2,20 @@ body{
     background-color: #faab36;
 }
 
+h1{
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
 .playground{
     width: 600px;
     height: 600px;
     background-color: #1e65a7;
-    margin: 30px auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
 }
 button{
     margin: 0 auto;
-    display: block;
 }
 
 .square{
