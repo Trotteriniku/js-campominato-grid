@@ -1,7 +1,11 @@
+body{
+    background-color: #faab36;
+}
+
 .playground{
     width: 600px;
     height: 600px;
-    background-color: black;
+    background-color: #1e65a7;
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
@@ -22,5 +26,5 @@ button{
 }
 
 .active{
-    background-color: orange;
+    background-color: #249ea0;
 }
