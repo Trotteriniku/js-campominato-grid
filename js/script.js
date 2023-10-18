@@ -1,8 +1,9 @@
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', function() {
-     btn.classList.add('d-none');
+     
     const playground = document.querySelector('.playground');
+    playground.innerHTML=''
     const numSquare = 100;
 
     for(let i = 0 ; i < numSquare ; i++){

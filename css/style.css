@@ -7,10 +7,10 @@ h1{
 }
 
 .playground{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: #1e65a7;
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,8 +20,6 @@ button{
 
 .square{
     border: 2px solid white;
-    /* width: calc(100% / 8);
-    height: calc(100% / 8); */
     display: flex;
     justify-content: center;
     align-items: center;
