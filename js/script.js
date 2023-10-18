@@ -29,6 +29,13 @@ function createSquare(squareIndex , rowSquare){
     square.style.height = `calc(100% /  ${squareWidth} )`
     square.innerHTML = squareIndex + 1;
 
-    square.addEventListener('click' , () =>square.classList.toggle('active'));
+    square.addEventListener('click' , () => {
+        square.classList.add('active')
+        console.log(squareIndex + 1);
+    }) 
+
+    
     return square;
+
+    
 }
